@@ -4,12 +4,11 @@
 
 int main()
 {
-    
-    int multiplicacao;
+    double multiplicacao;
     
     multiplicacao = 3 * 4;
     
-    printf("%d", multiplicacao);
+    printf("%.3f", multiplicacao);
     
     return 0;
 }
