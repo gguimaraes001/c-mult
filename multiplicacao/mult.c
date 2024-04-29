@@ -1,13 +1,14 @@
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-    float multiplicacao;
+    double multiplicacao;
     
     multiplicacao = 3 * 4;
     
-    printf("%.2f", multiplicacao);
+    printf("%.3f", multiplicacao);
     
     return 0;
 }
